@@ -23,5 +23,5 @@ alias gx='gitx --all';
 
 
 ##quick commit:
-alias gg='/e/github/fei-windows/bash/src/git/git_quick_commit.sh';
+alias gg='/e/github/fei-windows-bash/src/git/git_quick_commit.sh';
 alias ggg='gaa && gcm "Auto quick commit~" && gp';
