@@ -12,6 +12,15 @@ $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 ```
 
+###Initial ssh key to github:
++ command:
+```sh
+$ ssh-keygen.exe
+$ cat ~/.ssh/id_rsa.pub > /e/github/fei-windows-bash/_data/id_rsa.pub
+```
++ https://github.com/settings/ssh
+
+
 ###Get git tools:
 + https://www.git-scm.com/download/
 + cd e:/github
