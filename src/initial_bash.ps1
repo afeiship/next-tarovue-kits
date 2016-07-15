@@ -4,4 +4,7 @@
 # set-executionpolicy remotesigned
 # http://www.xuebuyuan.com/489960.html
 
+
+
+
 & 'C:\Program Files\Git\bin\bash.exe';

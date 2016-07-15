@@ -4,5 +4,5 @@ alias alias-reload='source ~/.bashrc';
 alias e-alias='vim ~/.bashrc';
 
 ##cd
-alias cd-git='cd /e/github';
-alias cd-osc='cd /e/git-oschina';
+alias cd-git='cd /d/github';
+alias cd-osc='cd /d/git-oschina';
