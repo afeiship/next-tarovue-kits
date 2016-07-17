@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 alias ll='ls -alh';
+alias cls='clear';
 alias alias-reload='source ~/.bashrc';
 alias e-alias='vim ~/.bashrc';
 
