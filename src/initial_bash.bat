@@ -7,7 +7,20 @@
 
 ##Git bash ln -s invalid,so use cmd:
 
+##Delete old files:
+del /s /q %HOMEPATH%\.npmrc
+del /s /q %HOMEPATH%\.bashrc
+del /s /q %HOMEPATH%\.vimrc
+
+rd /s /q %HOMEPATH%\.ssh
+rd /s /q %HOMEPATH%\.atom
+
+
+
+##Create soft link:
 mklink %HOMEPATH%\.npmrc d:\github\fei-windows-bash\src\.npmrc
 mklink %HOMEPATH%\.bashrc d:\github\fei-windows-bash\src\.bashrc
-mklink %HOMEPATH%\.ssh d:\github\fei-windows-bash\src\.ssh
 mklink %HOMEPATH%\.vimrc d:\github\fei-windows-bash\src\.vimrc
+
+mklink %HOMEPATH%\.ssh d:\github\fei-windows-bash\src\.ssh
+mklink %HOMEPATH%\.atom d:\github\fei-windows-bash\src\.atom
