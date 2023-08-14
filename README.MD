@@ -1,29 +1,34 @@
-#fei-windows-bash
-Fei's simple & cool windows bash env.
+# vue-envs
+> Vue cli env manager.
 
-##ENV PATH:
-### Initial PATH ENV by SETX.bats:
-+ C:\Users\Administrator\AppData\Local\atom\app-1.8.0
-+ C:\Program Files\Git\bin
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
-###Initial Git info:
-```sh
-$ git config --global user.email "you@example.com"
-$ git config --global user.name "Your Name"
+## installation
+```shell
+npm install @jswork/vue-envs
 ```
 
-###Initial ssh key to github:
-+ command:
-```sh
-$ ssh-keygen.exe
-$ cat ~/.ssh/id_rsa.pub > /e/github/fei-windows-bash/_data/id_rsa.pub
+## usage
+```js
+import vueEnvs from '@jswork/vue-envs';
+
+// usage goes here.
 ```
-+ https://github.com/settings/ssh
 
+## license
+Code released under [the MIT license](https://github.com/afeiship/vue-envs/blob/master/LICENSE.txt).
 
-###Get git tools:
-+ https://www.git-scm.com/download/
-+ cd e:/github
-+ git clone git://afeiship/fei-windows-bash
-+ open windows powershell run `e:/github/fei-windows-bash/src/initial_windows_bash.bat`
-+ run `sh e:/github/fei-windows-bash/src/windows_bash_alias.sh`;
+[version-image]: https://img.shields.io/npm/v/@jswork/vue-envs
+[version-url]: https://npmjs.org/package/@jswork/vue-envs
+
+[license-image]: https://img.shields.io/npm/l/@jswork/vue-envs
+[license-url]: https://github.com/afeiship/vue-envs/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/vue-envs
+[size-url]: https://github.com/afeiship/vue-envs/blob/master/dist/vue-envs.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@jswork/vue-envs
+[download-url]: https://www.npmjs.com/package/@jswork/vue-envs
