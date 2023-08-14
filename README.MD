@@ -13,9 +13,7 @@ npm install @jswork/vue-envs
 
 ## usage
 ```js
-import vueEnvs from '@jswork/vue-envs';
-
-// usage goes here.
+import ViteEnvs from '@jswork/vite-envs';
 ```
 
 ## license

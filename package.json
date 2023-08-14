@@ -51,5 +51,8 @@
       ],
       "@babel/preset-typescript"
     ]
+  },
+  "dependencies": {
+    "@jswork/env-manager": "^1.0.9"
   }
 }
