@@ -62,10 +62,9 @@ const NxTarovueKits = nx.declare('nx.TarovueKits', {
         $page: function (inKey) {
           const pages = getCurrentPages();
           const page = pages[pages.length - 1];
-          const { options: opts, route, $page } = page;
+          const { $taroParams: opts, route, $taroPath } = page;
           const { options } = pipe(...queryInterceptors)({ options: opts, route });
-          const url = nx.get($page, 'fullPath');
-          const meta = { route, options, url };
+          const meta = { route, options, url: $taroPath };
           return nx.get(meta, inKey);
         }
       });
