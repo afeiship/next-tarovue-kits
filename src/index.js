@@ -29,6 +29,7 @@ import '@jswork/next-sleep';
 import '@jswork/next-json';
 import '@jswork/next-global';
 import '@jswork/next-memo';
+import '@jswork/taro-envs';
 
 const defaults = { prefix: 'nuk', queryInterceptors: [nx.stubValue], initialData: null };
 

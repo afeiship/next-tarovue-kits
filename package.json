@@ -60,7 +60,8 @@
     "@jswork/next-sleep": "^1.0.1",
     "@jswork/next-try-set": "^1.0.1",
     "@jswork/next-weapp-storage": "^1.0.7",
-    "@jswork/pipe": "^1.0.4"
+    "@jswork/pipe": "^1.0.4",
+    "@jswork/taro-envs": "^1.0.5"
   },
   "babel": {
     "presets": [
